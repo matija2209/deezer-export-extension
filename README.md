@@ -2,6 +2,8 @@
 
 A Chrome extension to export your Deezer playlists to CSV files.
 
+**GitHub Repository**: [https://github.com/matija2209/deezer-export-extension](https://github.com/matija2209/deezer-export-extension)
+
 ## Features
 
 - Export any Deezer playlist, album, artist page, etc. with one click
@@ -20,7 +22,7 @@ A Chrome extension to export your Deezer playlists to CSV files.
 
 ### Manual Installation (Developer Mode)
 
-1. Download or clone this repository
+1. Download or clone this repository: `git clone https://github.com/matija2209/deezer-export-extension.git`
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked" and select the folder containing the extension files
@@ -53,13 +55,20 @@ The exported CSV file includes the following columns:
 - Album Link
 - Cover URL
 
+## Development
+
+To contribute to the development of this extension:
+
+1. Fork the repository
+2. Clone your fork
+3. Make your changes
+4. Create a pull request
+
+For more detailed instructions on setting up the development environment, see [INSTALL.md](INSTALL.md).
+
 ## Privacy
 
 This extension operates entirely locally in your browser. No data is sent to any external servers. Your playlist information is processed within your browser, and the resulting CSV file is saved directly to your device.
-
-## Credits
-
-This extension uses your browser's built-in functionality to extract and download Deezer playlist data.
 
 ## License
 

@@ -1,0 +1,27 @@
+{
+  "name": "deezer-export-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for exporting Deezer playlists to CSV files",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp -r manifest.json popup.html popup.js content.js scripts.js icons dist/",
+    "package": "npm run build && cd dist && zip -r ../deezer-export-extension.zip ./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matija2209/deezer-export-extension.git"
+  },
+  "keywords": [
+    "deezer",
+    "export",
+    "playlist",
+    "chrome-extension",
+    "csv"
+  ],
+  "author": "Matija Ziberna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matija2209/deezer-export-extension/issues"
+  },
+  "homepage": "https://github.com/matija2209/deezer-export-extension#readme"
+} 
